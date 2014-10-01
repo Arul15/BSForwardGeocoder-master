@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		F4786646149387900060893E /* BSForwardGeocoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F478663E149387900060893E /* BSForwardGeocoder.m */; };
+		F4786647149387900060893E /* BSAddressComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = F478663F149387900060893E /* BSAddressComponent.m */; };
+		F4786648149387900060893E /* BSKmlResult.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786640149387900060893E /* BSKmlResult.m */; };
+		F4786649149387900060893E /* BSGoogleV3KmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786645149387900060893E /* BSGoogleV3KmlParser.m */; };
+		F478664D149387BC0060893E /* CustomPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = F478664B149387BC0060893E /* CustomPlacemark.m */; };
+		F4786655149387EA0060893E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F478664F149387EA0060893E /* MainWindow.xib */; };
+		F4786656149387EA0060893E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4786650149387EA0060893E /* main.m */; };
+		F4786658149387EA0060893E /* Forward_GeocodingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4786652149387EA0060893E /* Forward_GeocodingViewController.xib */; };
+		F478665F149388290060893E /* Forward_GeocodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F478665B149388290060893E /* Forward_GeocodingViewController.m */; };
+		F4786660149388290060893E /* Forward_GeocodingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F478665D149388290060893E /* Forward_GeocodingAppDelegate.m */; };
+		F4C7A3B6114CFC0F009DC9F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C7A3B5114CFC0F009DC9F7 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Forward-Geocoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forward-Geocoding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F478663E149387900060893E /* BSForwardGeocoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSForwardGeocoder.m; path = "Forward Geocoder/BSForwardGeocoder.m"; sourceTree = SOURCE_ROOT; };
+		F478663F149387900060893E /* BSAddressComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSAddressComponent.m; path = "Forward Geocoder/BSAddressComponent.m"; sourceTree = SOURCE_ROOT; };
+		F4786640149387900060893E /* BSKmlResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSKmlResult.m; path = "Forward Geocoder/BSKmlResult.m"; sourceTree = SOURCE_ROOT; };
+		F4786641149387900060893E /* BSKmlResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSKmlResult.h; path = "Forward Geocoder/BSKmlResult.h"; sourceTree = SOURCE_ROOT; };
+		F4786642149387900060893E /* BSAddressComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSAddressComponent.h; path = "Forward Geocoder/BSAddressComponent.h"; sourceTree = SOURCE_ROOT; };
+		F4786643149387900060893E /* BSForwardGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSForwardGeocoder.h; path = "Forward Geocoder/BSForwardGeocoder.h"; sourceTree = SOURCE_ROOT; };
+		F4786644149387900060893E /* BSGoogleV3KmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSGoogleV3KmlParser.h; path = "Forward Geocoder/BSGoogleV3KmlParser.h"; sourceTree = SOURCE_ROOT; };
+		F4786645149387900060893E /* BSGoogleV3KmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSGoogleV3KmlParser.m; path = "Forward Geocoder/BSGoogleV3KmlParser.m"; sourceTree = SOURCE_ROOT; };
+		F478664B149387BC0060893E /* CustomPlacemark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPlacemark.m; path = "iPad sample/Classes/CustomPlacemark.m"; sourceTree = SOURCE_ROOT; };
+		F478664C149387BC0060893E /* CustomPlacemark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPlacemark.h; path = "iPad sample/Classes/CustomPlacemark.h"; sourceTree = SOURCE_ROOT; };
+		F478664F149387EA0060893E /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = "iPad sample/MainWindow.xib"; sourceTree = "<group>"; };
+		F4786650149387EA0060893E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "iPad sample/main.m"; sourceTree = "<group>"; };
+		F4786652149387EA0060893E /* Forward_GeocodingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Forward_GeocodingViewController.xib; path = "iPad sample/Forward_GeocodingViewController.xib"; sourceTree = "<group>"; };
+		F4786653149387EA0060893E /* Forward_Geocoding-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Forward_Geocoding-Info.plist"; path = "iPad sample/Forward_Geocoding-Info.plist"; sourceTree = "<group>"; };
+		F4786654149387EA0060893E /* Forward_Geocoding_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forward_Geocoding_Prefix.pch; path = "iPad sample/Forward_Geocoding_Prefix.pch"; sourceTree = "<group>"; };
+		F478665B149388290060893E /* Forward_GeocodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forward_GeocodingViewController.m; path = "iPad sample/Classes/Forward_GeocodingViewController.m"; sourceTree = SOURCE_ROOT; };
+		F478665C149388290060893E /* Forward_GeocodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forward_GeocodingViewController.h; path = "iPad sample/Classes/Forward_GeocodingViewController.h"; sourceTree = SOURCE_ROOT; };
+		F478665D149388290060893E /* Forward_GeocodingAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forward_GeocodingAppDelegate.m; path = "iPad sample/Classes/Forward_GeocodingAppDelegate.m"; sourceTree = SOURCE_ROOT; };
+		F478665E149388290060893E /* Forward_GeocodingAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forward_GeocodingAppDelegate.h; path = "iPad sample/Classes/Forward_GeocodingAppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		F4C7A3B5114CFC0F009DC9F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F4C7A3B6114CFC0F009DC9F7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4C7A417114D02B7009DC9F7 /* Placemark */,
+				F478665C149388290060893E /* Forward_GeocodingViewController.h */,
+				F478665B149388290060893E /* Forward_GeocodingViewController.m */,
+				F478665D149388290060893E /* Forward_GeocodingAppDelegate.m */,
+				F478665E149388290060893E /* Forward_GeocodingAppDelegate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Forward-Geocoding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				F4C7A371114CF445009DC9F7 /* Forward Geocoding */,
+				F478664E149387D10060893E /* iPad sample */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			comments = "//\n//  Created by Björn Sållarp on 2010-03-13.\n//  NO Copyright 2010 MightyLittle Industries. NO rights reserved.\n// \n//  Use this code any way you like. If you do like it, please\n//  link to my blog and/or write a friendly comment. Thank you!\n//\n//  Read my blog @ http://blog.sallarp.com\n//";
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F4786654149387EA0060893E /* Forward_Geocoding_Prefix.pch */,
+				F4786650149387EA0060893E /* main.m */,
+				F4786653149387EA0060893E /* Forward_Geocoding-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				F4C7A3B5114CFC0F009DC9F7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F478664E149387D10060893E /* iPad sample */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				F478665A149388020060893E /* Resources */,
+			);
+			name = "iPad sample";
+			sourceTree = "<group>";
+		};
+		F478665A149388020060893E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F478664F149387EA0060893E /* MainWindow.xib */,
+				F4786652149387EA0060893E /* Forward_GeocodingViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F4C7A371114CF445009DC9F7 /* Forward Geocoding */ = {
+			isa = PBXGroup;
+			children = (
+				F4786642149387900060893E /* BSAddressComponent.h */,
+				F478663F149387900060893E /* BSAddressComponent.m */,
+				F4786640149387900060893E /* BSKmlResult.m */,
+				F4786641149387900060893E /* BSKmlResult.h */,
+				F4786643149387900060893E /* BSForwardGeocoder.h */,
+				F478663E149387900060893E /* BSForwardGeocoder.m */,
+				F4786644149387900060893E /* BSGoogleV3KmlParser.h */,
+				F4786645149387900060893E /* BSGoogleV3KmlParser.m */,
+			);
+			name = "Forward Geocoding";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F4C7A417114D02B7009DC9F7 /* Placemark */ = {
+			isa = PBXGroup;
+			children = (
+				F478664C149387BC0060893E /* CustomPlacemark.h */,
+				F478664B149387BC0060893E /* CustomPlacemark.m */,
+			);
+			name = Placemark;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Forward-Geocoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Forward-Geocoding" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forward-Geocoding";
+			productName = "Forward-Geocoding";
+			productReference = 1D6058910D05DD3D006BFB54 /* Forward-Geocoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Forward-Geocoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Forward-Geocoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4786655149387EA0060893E /* MainWindow.xib in Resources */,
+				F4786658149387EA0060893E /* Forward_GeocodingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4786646149387900060893E /* BSForwardGeocoder.m in Sources */,
+				F4786647149387900060893E /* BSAddressComponent.m in Sources */,
+				F4786648149387900060893E /* BSKmlResult.m in Sources */,
+				F4786649149387900060893E /* BSGoogleV3KmlParser.m in Sources */,
+				F478664D149387BC0060893E /* CustomPlacemark.m in Sources */,
+				F4786656149387EA0060893E /* main.m in Sources */,
+				F478665F149388290060893E /* Forward_GeocodingViewController.m in Sources */,
+				F4786660149388290060893E /* Forward_GeocodingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad sample/Forward_Geocoding_Prefix.pch";
+				INFOPLIST_FILE = "iPad sample/Forward_Geocoding-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "Forward-Geocoding";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPad sample/Forward_Geocoding_Prefix.pch";
+				INFOPLIST_FILE = "iPad sample/Forward_Geocoding-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "Forward-Geocoding";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Forward-Geocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Forward-Geocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
